@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(200, 200, 200) ;
+    font-family: 'Exo', sans-serif;
+    width: 100vw;
+    
+
+
+}
+
+#container{
+   
+    
+}
+
+/* *************************************************header*************************************** */
+
+#navigation{
+    background-color: rgb(255, 165, 0);
+    display: flex;
+    width: 100%;
+    
+        
+
+    
+}
+/*
+#text_baniere > h1{
+    flex-direction: column;
+}
+*/
+
+#navigation img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.logo_title{
+    display: flex;
+    align-items: center;
+}
+
+
+#navigation h2{
+    color: white;
+}
+
+h2{
+    font-weight: bold
+    
+}
+
+#navigation .nowrap{
+    display: flex;
+    
+    
+}
+
+.nowrap{
+    white-space: nowrap;
+    justify-content: center;
+    
+
+}
+
+
+nav{
+    
+    
+    
+}
+
+
+ul > a  {
+    color: white;
+    text-decoration:none;
+}
+
+ul{
+    list-style-type:none;
+    text-decoration: none;
+    display: flex;
+    
+    
+    
+    
+}
+
+#baniere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    
+    
+}
+
+#baniere > figure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+       
+}
+
+
+
+
+#text_baniere {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white ; 
+    text-align: center;
+    
+
+    
+}
+
+#text_baniere > h1 {
+    display: flex;
+    
+    font-size: 3em;
+}
+
+#text_baniere > p {
+    
+    display: flex;
+    flex-direction: column;
+    font-weight:  bold;
+    font-size: 1.5em;
+
+    
+}
+
+
+/* **********************************************************Main******************************************** */
+main{
+    padding: 20px;
+}
+
+article{
+    
+    border: dotted;
+    border-color: rgb(255, 165, 0);
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 1em;
+    padding-bottom: 2.5em;
+    text-align: center;
+    
+}
+
+article h2{
+    padding-bottom: 20px;
+     
+}
+
+
+
+aside{
+    display: flex;
+    
+    
+    border: dotted;
+    border-color: rgb(255, 165, 0);
+    margin-bottom: 18px;
+    padding-bottom: 30px;
+
+    background-color: white;
+   
+    
+}
+
+.photos{
+    display: flex;
+}
+
+aside figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+
+    
+}
+
+aside figcaption{
+    background-color: rgba(255,127,0,0.600);
+    position: absolute;
+    bottom:0% ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+aside h2{
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+    
+}
+
+th{
+    -webkit-text-fill-color: white ;
+    
+}
+
+td{
+    font-weight: bold;
+}
+
+
+table, th ,td {
+    border: solid 0.1px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+}
+
+
+thead {
+    background-color: rgb(81, 81, 81);
+}
+
+/* ********************************************************Contact******************** */
+#contact{
+    border: dotted;
+    border-color: rgb(255, 165, 0);
+    background-color: white;
+    padding: 5%;
+    gap: 20px;
+    
+
+}
+
+.inputzone{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100%;
+}
+
+input {
+    padding : 5px;
+}
+
+input {
+    border-color: orange;
+}
+
+
+
+
+button{
+    
+    background-color: rgb(255, 165, 0) ;
+    color: white;
+    border: 0.5px;
+    margin-top: 15px;
+    border-radius: 2%;
+    
+}
+
+/* *****************************************************Footer******************************* */
+footer{
+    margin-top: 20px;
+    background-color: rgb(81, 81, 81);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
